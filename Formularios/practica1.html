@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTROS</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1>Registro de usuarios para una conferencia</h1>
+    <form name="enviar" action="#" metod="get" autocomplete="off">
+        <table>
+            <tr>
+                <td><label for="usuario">Nombre Completo: </label></td>
+                <td><input type="text" name="usuario" placeholder="Nombre completo"></td>
+            </tr>
+            <tr>
+                <td><label for="edad">Edad: </label></td>
+                <td><input type="number" id="edad" placeholder="Ingrese su edad"></td>
+            </tr>
+            <tr>
+                <td><label for="telefono">Telefono: </label></td>
+                <td><input type="number" id="edad" placeholder="Ingrese su telefono"></td>
+            </tr>
+            <tr>
+                <td><label for="correo">Correo Electronico: <label></td>
+                <td><input type="email" id="correo" placeholder="Introduce tu correo"></td>
+            </tr>
+            <tr>
+                <td><label for="domicilio">Domicilio: </label></td>
+                <td><input type="text" id="domicilio" placeholder="Ingrese su domicilio"></td>
+            </tr>
+            <tr>
+                <td><label for="GENERO">GENERO: </label></td>
+                <td>
+                <select name="genero" id="genero">
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="ocupacion">Ocupacion</label></td>
+                <td>
+                    <select name="combo" id="ocupacion">
+                        <option value="Estudiante">Estudiante</option>
+                        <option value="Docentes">Docente</option>
+                        <option value="Doctor">Doctor</option>
+                        <option value="Abogado">Abogado</option>
+                        <option value="Contador">Contador</option>
+                    </select>
+                </td>
+                <tr>
+                    <td>
+                        <p>Talla de camiseta</p>
+                        <p>
+                            <input type="radio" name="talla" value="chica">S<br>
+                            <input type="radio" name="talla" value="mediana">M<br>
+                            <input type="radio" name="talla" value="grande">L<br>
+                            <input type="radio" name="talla" value="extra-grande">LM<br>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="preferencias">Preferencias dieteticas</label>
+                        <p>
+                            <input type="checkbox" name="preferencia" value="vegetariano">Vegetariano<br>
+                            <input type="checkbox" name="preferencia" value="vegano">Vegano<br>
+                            <input type="checkbox" name="preferencia" value="sinGluten">Sin gluten<br>
+                            <input type="checkbox" name="preferencia" value="sinRestricciones">Sin restricciones<br>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar">
+                    </td>
+                </tr>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
