@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>CALCULAR ÁREA</h1>
+  <h1>CALCULAR PERIMETRO</h1>
+  <h1>TIPO DE TRIANGULO</h1>
+    <table>
+        <tr>
+            <td><label for="lado1">INGRESE EL LADO 1: </label></td>
+            <td><input type="number" name="lado1" id="lado1"></td>
+        </tr>
+        <tr>
+            <td><label for="lado2">INGRESE EL LADO 2:</label></td>
+            <td><input type="number" name="lado2" id="lado2"></td>
+        </tr>
+        <tr>
+            <td><label for="lado3">INGRESE EL LADO 3:</label></td>
+            <td><input type="number" name="lado3" id="lado3"></td>
+        </tr>
+    </table>
+    <button onclick="calcular()">Calcular Area</button>
+    <div id="resultado1"></div>
+    <button onclick="calcularPeri()">Calcular Perímetro</button>
+    <div id="resultado2"></div>
+    <button onclick="calcularTipo()">Tipo de triángulo</button>
+    <div id="resultado3"></div>
+    <script src="triang.js"></script>
+</body>
+</html>
