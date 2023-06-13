@@ -1,0 +1,25 @@
+header{
+   display: flex; 
+   justify-content: center;
+   background-color: rgb(144, 211, 68);
+  }
+  label {
+    font : .8em "typewriter", sans-serif;
+  }
+  table,fieldset{
+    width: 700px;
+    background: rgb(95, 153, 201) ;
+    padding: 50px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 6px;
+    font-family: 'calibri';
+    color: rgb(7, 7, 7);
+    font-size: large;
+  }
+   
+  h1{
+    text-align : center;
+    background: #3974cc;
+    border-radius: 6px;
+  }
